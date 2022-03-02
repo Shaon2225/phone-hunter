@@ -33,8 +33,21 @@ body{
     margin-right: auto;
 }
 
+#phone-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border: 0;
+}
+
+#card-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #see-more-button{
-    display: none;s
+    display: none;
+    margin-bottom: 50px;
 }
 
 
