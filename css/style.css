@@ -50,4 +50,7 @@ body{
     margin-bottom: 50px;
 }
 
+#not-found{
+    display: none;
+}
 
