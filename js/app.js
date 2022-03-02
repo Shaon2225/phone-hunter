@@ -105,8 +105,13 @@ const showPhoneDetail = phoneName =>{
 
 const showPhoneDetailInAWindow = data =>{
     const detailsFeild = document.getElementById('details-container');
+    let others= 'No information found';
     if (data.status) {
-        let others =Object.entries(data.data.others).map(x => x.join(' : ')).join('<br>');
+        try{
+            others = Object.entries(data.data.others).map(x => x.join(' : ')).join('<br>');
+        }
+        catch(error){
+        }
         detailsFeild.innerHTML=`
         <div>
             <img src="${data.data.image}" width="250px" alt="">
