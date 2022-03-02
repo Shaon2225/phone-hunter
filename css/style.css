@@ -2,12 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
-* {
+body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #E5E3C9; 
 }
 
 .search-bar input{
@@ -25,4 +24,17 @@
     font-size: 1.5rem;
     color: antiquewhite;
 }
+
+.loading-img{
+    width: 75px;
+    display: none;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#see-more-button{
+    display: none;s
+}
+
 
