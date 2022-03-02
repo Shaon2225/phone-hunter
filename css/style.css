@@ -9,12 +9,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.search-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .search-bar input{
     border: 1px solid #94B49F;
     border-radius: 10px;
     height: 50px;
     background-color: #fff;
     padding-left: 0.75rem;
+    width: 80%;
 }
 .search-bar button{
     border: 1px solid #94B49F;
@@ -67,3 +73,20 @@ body{
     /* position: relative; */
     top: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+    #phone-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        border: 0;
+    }
+    .search-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .phone-details-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
