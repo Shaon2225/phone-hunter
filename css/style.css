@@ -54,3 +54,16 @@ body{
     display: none;
 }
 
+.phone-details-container{
+    width: 80%;
+    border: 1px;
+    border-radius: 10px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* position: relative; */
+    top: 1rem;
+}
