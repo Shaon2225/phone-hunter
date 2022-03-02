@@ -105,6 +105,7 @@ const showPhoneDetail = phoneName =>{
 
 const showPhoneDetailInAWindow = data =>{
     const detailsFeild = document.getElementById('details-container');
+    detailsFeild.innerHTML = '';
     let others= 'No information found';
     if (data.status) {
         try{
